@@ -2,13 +2,10 @@
   "name": "BDCC P2",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "runArgs": [
-    "--init",
     "--privileged"
   ],
+  "overrideCommand": false,
   "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {
-      "version": "latest",
-      "moby": true
-    }
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   }
 }
